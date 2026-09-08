@@ -12,6 +12,8 @@
 
 Gaya bicaranya santai dan friendly, seperti teman yang sudah keliling banyak negara! 🌏
 Kamu bisa langsung akses disini: https://travel-ai-chatbot.streamlit.app/
+
+(Aplikasi ini merupakan demonstrasi implementasi streamlit dan API Gemini sebagai sebuah webapp chatbot. Keterbatasan aplikasi ini tergantung pada API Gemini yang digunakan, serta output yang hanya berupa teks.)
 ---
 
 ## ✨ Fitur Utama
@@ -107,6 +109,7 @@ Aplikasi akan terbuka otomatis di browser pada alamat `http://localhost:8501`.
 jelajah-ai/
 │
 ├── app.py          # File utama aplikasi Streamlit
+├── requirements.txt          # File requirement aplikasi Streamlit
 └── README.md       # Dokumentasi proyek ini
 ```
 
@@ -147,8 +150,3 @@ Model lain yang tersedia: `gemini-2.0-flash`, `gemini-1.5-pro`, dll. Cek [dokume
 - **Batas penggunaan** — Penggunaan API tunduk pada kuota dan batas yang ditetapkan oleh Google AI Studio.
 
 ---
-
-
----
-
-*Dibuat dengan ❤️ untuk para travel enthusiast Indonesia* 🇮🇩
